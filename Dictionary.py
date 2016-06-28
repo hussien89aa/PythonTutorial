@@ -1,7 +1,6 @@
 
 
 
-
 def main():
     #Student={'Name':"hussein alrubaye",'Age':27,'Slary':232.5};
     Student=dict(Name="hussein alrubaye",Age=27,Slary=232.5);
@@ -14,6 +13,7 @@ def main():
     print(Student['Age'])
     Student.clear()
     print(Student,type(Student))
+    
 
 
 
