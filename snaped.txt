@@ -1,0 +1,10 @@
+ x=1
+    x="hi" if x==1 else "why"
+    fo = open("foo.txt", "a") #r write a append
+    fo.write( "Python is a great language.\nYeah its great!!\n")
+    fo.close()
+    r = open("foo.txt", "r")
+   # read=r.read(102033)
+    for s in r:
+        print(s)
+    r.close()
