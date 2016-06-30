@@ -1,10 +1,10 @@
- x=1
-    x="hi" if x==1 else "why"
-    fo = open("foo.txt", "a") #r write a append
-    fo.write( "Python is a great language.\nYeah its great!!\n")
-    fo.close()
-    r = open("foo.txt", "r")
-   # read=r.read(102033)
-    for s in r:
-        print(s)
-    r.close()
+   db=sqlite3.connect("test.db")
+    db.row_factory = sqlite3.Row
+    db.execute("create table if not exists Admin(name text,age int)")
+    db.execute("insert into Admin (name,age) values (?, ?)",("hussein",27))
+    #db.execute('insert into Admin (name, age) values (?, ?)', (row['t1'], row['i1']))
+    print("hello from python")
+    print("next line execute")
+    cursor=db.execute("select * from Admin")
+    for row in cursor:
+        print('  {}: {}'.format(row['name'], row['age']))
