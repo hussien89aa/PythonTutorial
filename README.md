@@ -1,5 +1,5 @@
 # Python Tutorial essential Training
-### This code is snapped code for this [Python UDMEY playlist](https://www.udemy.com/python-for-complete-beginners-learn-step-by-step/?couponCode=GITHUBDISCOUNT) 
+### This code is snapped code for Python UDMEY course.Enroll using a [ 95% discount coupon](https://www.udemy.com/course/python-for-complete-beginners-learn-step-by-step/?referralCode=111341B0EFC9818449BC). 
 To make the learn and writing code easy
 
 
