@@ -1,7 +1,4 @@
 
-
-
-
 def main():
      word="python"
      for letter in word:
