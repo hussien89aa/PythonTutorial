@@ -8,7 +8,7 @@ def SumNumbers(n1,n2):
 def main():
     n1 = int(input("ENTER FIRST NUMBER"))
     n2 = int(input("ENTER SECOND NUMBER"))
-    result= SumNumbers(3,5)
+    result= SumNumbers(n1,n2)
     print("z={}".format(result))
 
 
