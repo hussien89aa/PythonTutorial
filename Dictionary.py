@@ -12,7 +12,7 @@ def main():
     print(Student['Name'])
     print(Student['Age'])
     Student.clear()
-    print(Student,type(Student))
+    print(Student,type(Students))
     
 
 
