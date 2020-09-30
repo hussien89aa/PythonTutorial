@@ -1,6 +1,6 @@
 def main():
-    Age=input("enter your Age:")
-    if(int(Age)>18):
+    Age=int(input("enter your Age:")) 
+    if(Age>18):
         print("welcome")
 
 
