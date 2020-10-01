@@ -1,6 +1,3 @@
-
-
-
 def main():
     #Student={'Name':"hussein alrubaye",'Age':27,'Slary':232.5};
     Student=dict(Name="hussein alrubaye",Age=27,Slary=232.5);
@@ -14,7 +11,5 @@ def main():
     Student.clear()
     print(Student,type(Student))
     
-
-
-
+    
 if __name__ == '__main__':main()
