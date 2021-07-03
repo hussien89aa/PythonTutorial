@@ -7,7 +7,7 @@ def SumNumbers(n1,n2):
 
 def main():
    result= SumNumbers(3,5)
-   print("z={}".format(result))
+   print("z=", result) #don't use format bro, Make it easy. 
 
 
 
