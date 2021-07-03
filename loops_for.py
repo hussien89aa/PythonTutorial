@@ -3,7 +3,7 @@
 
 
 def main():
-    l=[1,3,4,'hi',3.4]
+    l=[1,3,4,'hi',"DHRUV",6]
     print(range(5))
     for i in range(5):
         print(l[i])
