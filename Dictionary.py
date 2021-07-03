@@ -1,5 +1,5 @@
 
-
+# Dictionary have key and value . it is unordred and changeable.
 
 def main():
     #Student={'Name':"hussein alrubaye",'Age':27,'Slary':232.5};
