@@ -7,9 +7,9 @@ def main():
      for letter in word:
          if(letter=='t'):
            pass
-           print(" blcok is padded")
+           print(" block is padded")
          print(letter)
-     print("progam end")
+     print("program end")
 
 
 if __name__ == '__main__':main()
