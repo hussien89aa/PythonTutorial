@@ -7,6 +7,9 @@ def main():
     print(range(5))
     for i in range(5):
         print(l[i])
+        
+    # Single line list comprehension
+    print([k for k in l])
 
 
 

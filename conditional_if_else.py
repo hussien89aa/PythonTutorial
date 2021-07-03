@@ -4,6 +4,9 @@ def main():
         print("welcome")
     else:
         print("Not Welcome")
+        
+    # Single line comprehension
+    print("Welcome" if int(Age) > 18 else "Not Welcome")
 
 
 
