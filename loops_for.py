@@ -1,15 +1,13 @@
 
 
 
+def printnumbers():
+    m = int(input("enter the number till you want to print the numbers"))
 
-def main():
-    l=[1,3,4,'hi',3.4]
-    print(range(5))
-    for i in range(5):
-        print(l[i])
-
+    for i in range(m):
+        print(i + 1)
 
 
+printnumbers()
 
 
-if __name__ == '__main__':main()
