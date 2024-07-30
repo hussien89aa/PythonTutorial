@@ -1,0 +1,2 @@
+print("THIS IS THE SAMPLE PYTHON PROGRAM")
+print(\n)
